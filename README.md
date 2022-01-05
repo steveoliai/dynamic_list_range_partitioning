@@ -21,7 +21,7 @@ create_part:
 
 Once you've defined your partitioning scheme in PARTITION_MSTR and have also updated the rows in your table with a PART_ID value which exists in PARTITION_MSTR, you can run this procedure to partition the table.
 
-## Paremeters:
+## Parameters:
 
 1. v_schema_name IN VARCHAR2:  The schema you're working in.
 2. v_tab_name IN VARCHAR2: The name of the table you want to partition
@@ -38,7 +38,7 @@ maintain_part:
 
 If you need to create paritions for the next calendar year OR if you add a row to PARTITION_MSTR for a new PART_ID, this procedure will add the new paritions.
 
-## Paremeters:
+## Parameters:
 
 1. v_schema_name IN VARCHAR2:  The schema you're working in.
 2. v_tab_name IN VARCHAR2: The name of the table you want to partition
