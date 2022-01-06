@@ -292,7 +292,7 @@ BEGIN
 
 
         --loop for next year
-        v_thisyear := to_char(current_date + 356,'yyyy');
+        v_thisyear := to_char(current_date + 365,'yyyy');
         v_nextyear := to_char(current_date + (365*2),'yyyy');
         v_monthnum := 0;
         while  v_monthnum < 12  --this year's loop
